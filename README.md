@@ -133,7 +133,7 @@ g++ main.cpp -o Parcial3
 If you want to test the project on [OnlineGDB](https://www.onlinegdb.com/):
 
 1. Select **C++** as the language.
-2. Paste the contents of `main.cpp` into the editor.
+2. Paste the contents of `main.cpp and FunctionBFS.cpp` into the editor.
 3. On the left sidebar, click on **"Files"** and create a new file named `imagen.txt`.
 4. Paste the matrix content into `imagen.txt`.
 5. Click **Run**.
