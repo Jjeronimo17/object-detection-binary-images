@@ -35,7 +35,8 @@ The implementation applies graph traversal techniques using **Breadth-First Sear
 
 ```text
 📁 ObjectDetection/
-├── 📄 main.cpp        # Complete source code (FunctionBFS class + main)
+├── 📄 main.cpp        #  source code (main)
+├── 📄 FunctionBFS.cpp # BFS function and border function
 ├── 📄 imagen.txt      # Example input matrix
 └── 📄 Parcial3.exe    # Compiled Windows executable
 ```
@@ -45,14 +46,14 @@ The implementation applies graph traversal techniques using **Breadth-First Sear
 ## 🚀 How to Run
 
 ### Requirements
-- Windows environment (for `detector.exe`)  
+- Windows environment (for `Parcial3.exe`)  
 - Or a C++ compiler such as `g++` to compile manually  
 
 ### Execution Steps
 
 1. Download or clone the repository  
-2. Make sure `imagen.txt` is located in the same folder as `detector.exe`  
-3. Run `detector.exe` from the terminal or by double-clicking it  
+2. Make sure `imagen.txt` is located in the same folder as `Parcial3.exe`  
+3. Run `Parcial3.exe` from the terminal or by double-clicking it  
 4. When prompted, enter the file name:
 
 ```text
@@ -122,7 +123,7 @@ If every border value is `0`, the image is considered to contain a valid frame.
 To compile the project manually using `g++`:
 
 ```bash
-g++ main.cpp -o detector
+g++ main.cpp -o Parcial3
 ```
 
 ---
